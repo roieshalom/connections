@@ -26,10 +26,11 @@
     
     /* Typography */
     --font-primary: 'Arial', sans-serif;
+    --font-h1: 'cookie';
     --font-size-base: 16px;
     --font-size-large: 18px;
     --font-size-small: 14px;
-    --font-size-heading: 26px;
+    --font-size-heading: 120px;
     
     /* Spacing */
     --spacing-xs: 5px;
@@ -60,7 +61,6 @@
 }
 
 body {
-    font-family: var(--font-primary);
     background: var(--color-bg-gradient);
     display: flex;
     justify-content: center;
@@ -70,11 +70,12 @@ body {
 }
 
 h1 {
+    font-family: "Cookie", cursive;
     text-align: center;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
     color: var(--color-text);
     font-size: var(--font-size-heading);
-    letter-spacing: 0.08em;
+    font-weight: regular;
 }
 
 /* ==========================================
@@ -84,7 +85,7 @@ h1 {
 .message {
     text-align: center;
     min-height: 30px;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
     font-weight: bold;
     font-size: var(--font-size-large);
 }
@@ -94,14 +95,25 @@ h1 {
 
 .solved-categories {
     margin-bottom: var(--spacing-md);
+        width: 100%;
+    max-width: 510px;
 }
 
 .solved-category {
     padding: var(--spacing-md);
     margin-bottom: var(--spacing-sm);
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     text-align: center;
+    height: 120px;              /* match tile height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(-8px);
+    animation: solvedIn 0.6s ease forwards;
 }
+
 
 .solved-category.yellow { background-color: var(--color-yellow); }
 .solved-category.green { background-color: var(--color-green); }
@@ -125,6 +137,7 @@ h1 {
 
 
 .category-name {
+    font-family: var(--font-primary);
     font-weight: bold;
     margin-bottom: var(--spacing-xs);
     text-transform: uppercase;
@@ -132,14 +145,17 @@ h1 {
 }
 
 .category-words {
+    font-family: var(--font-primary);
     font-size: var(--font-size-base);
 }
 
 .game-board {
+    font-family: var(--font-primary);
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 120px);  /* explicit tile size */
     gap: var(--spacing-sm);
-    margin: var(--spacing-lg);
+    margin: var(--spacing-lg) auto;
+    justify-content: center;
 }
 
 .word-tile {
@@ -152,16 +168,15 @@ h1 {
     font-size: var(--font-size-base);
     text-transform: uppercase;
     box-shadow: var(--shadow-sm);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-    aspect-ratio: 1 / 1;
+    transition: transform 0.15s ease, box-shadow 0.15s ease,
+                background-color 0.15s ease, opacity 0.2s ease;
+    width: 120px;
+    height: 120px;              /* explicit height */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 6px;
     text-wrap: balance;
-    opacity: 0;
-    transform: translateY(5px);
-    animation: tileIn 0.8s ease forwards;
 }
 
 @keyframes tileIn {
@@ -293,9 +308,24 @@ button {
 /* ==========================================
    RESPONSIVE
    ========================================== */
-
 @media (max-width: 600px) {
+    .game-board {
+        grid-template-columns: repeat(4, 100px);
+        gap: var(--spacing-sm);
+    }
+
     .word-tile {
+        width: 100px;
+        height: 100px;
         font-size: var(--font-size-small);
     }
+
+    .solved-category {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
 }
+
