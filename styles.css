@@ -54,6 +54,12 @@
    BASE STYLES
    ========================================== */
 
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -325,8 +331,10 @@ button {
     }
     
     .game-board {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 6px;  /* You can also reduce the gap between tiles */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;  /* You can also reduce the gap between tiles */
+    width: 100%;
+    max-width: 100%;
     }
     
     .word-tile {
