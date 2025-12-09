@@ -194,19 +194,57 @@ function submitGuess() {
         });
 
         if (category) {
-            showMessage(`Correct! ${category.name}`, 'correct');
-            solvedCategories.push({
-                name: category.name,
-                words: category.words,
-                difficulty: category.difficulty
-            });
+    showMessage('Correct!', 'correct');   // only the word "Correct!"
 
-            remainingWords = remainingWords.filter(
-                item => !selectedWords.includes(item.word)
-            );
+    const tiles = document.querySelectorAll('.word-tile');
 
-            selectedWords = [];
-            setTimeout(() => updateDisplay(), CORRECT_DELAY);
+    const CORRECT_HOP_DURATION     = 250;  // hop time
+    const PAUSE_AFTER_HOP          = 300;  // <-- you control this pause
+    const CORRECT_RESOLVE_DURATION = 500;  // dissolve up
+    const EXTRA_READ_TIME          = 800;  // message reading time
+
+    // 1) add hop class to selected tiles
+    tiles.forEach(tile => {
+        if (selectedWords.includes(tile.textContent)) {
+            tile.classList.add('correct-hop');
+        }
+    });
+
+    // 2) after hop finishes, remove hop and pause (no dissolve yet)
+    setTimeout(() => {
+        tiles.forEach(tile => {
+            if (selectedWords.includes(tile.textContent)) {
+                tile.classList.remove('correct-hop');
+            }
+        });
+    }, CORRECT_HOP_DURATION);
+
+    // 3) after hop + pause, start dissolve upwards
+    setTimeout(() => {
+        tiles.forEach(tile => {
+            if (selectedWords.includes(tile.textContent)) {
+                tile.classList.add('correct-resolve');
+            }
+        });
+    }, CORRECT_HOP_DURATION + PAUSE_AFTER_HOP);
+
+    // 4) after hop + pause + dissolve + read time, update state and clear message
+    setTimeout(() => {
+        solvedCategories.push({
+            name: category.name,
+            words: category.words,
+            difficulty: category.difficulty
+        });
+
+        remainingWords = remainingWords.filter(
+            item => !selectedWords.includes(item.word)
+        );
+
+        selectedWords = [];
+        updateDisplay();
+
+        showMessage('', '');  // hide "Correct!"
+    }, CORRECT_HOP_DURATION + PAUSE_AFTER_HOP + CORRECT_RESOLVE_DURATION + EXTRA_READ_TIME);
 } else {
     mistakes++;
     showMessage('Not quite! Try again.', 'incorrect');

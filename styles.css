@@ -206,6 +206,34 @@ h1 {
     transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
+/* Correct: happy hop */
+.word-tile.correct-hop {
+    animation: correctHop 0.25s ease-out;
+}
+
+@keyframes correctHop {
+    0%   { transform: translateY(0); }
+    40%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Then dissolve upwards */
+.word-tile.correct-resolve {
+    animation: correctResolve 0.5s ease-out forwards;
+}
+
+@keyframes correctResolve {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+
 /* Correct group leaving the board */
 .word-tile.group-selected {
     background-color: var(--color-primary);
