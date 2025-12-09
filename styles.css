@@ -4,7 +4,7 @@
 
 /* Colors */
 :root {
-    --color-primary: #7919ff;
+    --color-primary: #61008f;
     --color-primary-hover: #555;
     --color-bg-main: #fdfbfb;
     --color-bg-gradient: radial-gradient(circle at top, #fdfbfb 0%, #ebedee 60%, #dfe4ea 100%);
@@ -70,9 +70,9 @@ body {
     background: var(--color-bg-gradient);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;   /* push content to top instead of center */
     min-height: 100vh;
-    padding: var(--spacing-lg);
+    padding: 20px
 }
 
 h1 {
@@ -81,7 +81,6 @@ h1 {
     margin-bottom: var(--spacing-sm);
     color: var(--color-text);
     font-size: var(--font-size-heading);
-    font-weight: regular;
 }
 
 /* ==========================================
@@ -327,7 +326,7 @@ button {
     margin: 0 auto;
 }
     body {
-        padding: 100px 5px;  /* Reduced from 20px to 5px on sides */
+        padding: 30px 5px;  /* Reduced from 20px to 5px on sides */
     }
     
     .game-board {
@@ -346,7 +345,7 @@ button {
     }
     
     h1 {
-        font-size: 60px;
+        font-size: 7em;
     }
     
     .solved-category {
