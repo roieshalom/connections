@@ -329,6 +329,59 @@ button {
    RESPONSIVE
    ========================================== */
 @media (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 20px 15px;  /* 15px side gaps */
+    }
+
+    /* Force all containers to respect viewport */
+    body > * {
+        max-width: 100%;
+    }
+
+    #game-board,
+    .game-board {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;  /* reduce gap from 6px to 5px */
+        width: 100%;
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .word-tile {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        font-size: 12px;  /* slightly smaller text */
+        padding: 2px;     /* reduce internal padding */
+    }
+
+    h1 {
+        font-size: 4.5em;  /* reduce title size */
+        margin: 10px 0;
+    }
+
+    .solved-category {
+        height: auto;
+        min-height: 80px;
+    }
+
+    .controls {
+        max-width: 100%;
+    }
+}
+@media (max-width: 600px) {
     html, body {
         overflow-x: hidden;
         width: 100%;
