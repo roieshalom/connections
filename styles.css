@@ -63,7 +63,6 @@
 html, body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 body {
@@ -303,8 +302,7 @@ button {
 
     .container {
         padding: 0 12px;  /* add side gaps here instead */
-        max-width: 100vw;
-        overflow-x: hidden;
+        max-width: 90vw;
     }
 
     h1 {
@@ -324,8 +322,8 @@ button {
         width: 100%;
         height: auto;
         aspect-ratio: 1;
-        font-size: 13px;
-        padding: 4px;
+        font-size: 12px;
+        padding: 2px;
     }
 
     .solved-category {
