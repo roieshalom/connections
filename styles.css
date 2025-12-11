@@ -23,6 +23,7 @@
     /* Feedback colors */
     --color-correct: #4caf50;
     --color-incorrect: #f44336;
+    --color-info: #004cff;
     
     /* Typography */
     --font-primary: 'Arial', sans-serif;
@@ -313,8 +314,6 @@ button {
     opacity: 1;
 }
 
-
-
 /* generic visible state */
 .message-overlay.visible {
     opacity: 1;
@@ -322,20 +321,31 @@ button {
 
 /* status variants */
 .message-overlay.correct {
-    background: rgba(76, 175, 80, 0.95);      /* green */
-    border-color: #2e7d32;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #000000;
+    background: var(--color-bg-main);
+    border-color: var(--color-text);
+    padding: 10px 30px 10px 30px;
 }
 
 .message-overlay.incorrect {
-    background: rgba(244, 67, 54, 0.95);      /* red */
-    border-color: #b71c1c;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #000000;
+    background: var(--color-bg-main);
+    border-color: var(--color-text);
+    padding: 10px 30px 10px 30px;
 }
 
 .message-overlay.info {
-    background: rgba(0, 0, 0, 0.85);
-    border-color: #555;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #000000;
+    background: var(--color-bg-main);
+    border-color: var(--color-text);
+    padding: 10px 30px 10px 30px;
 }
-
 
 /* ==========================================
    RESPONSIVE (merged single media query)
