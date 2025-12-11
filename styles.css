@@ -329,16 +329,28 @@ button {
    RESPONSIVE
    ========================================== */
 @media (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     body {
-        padding: 30px 5px;
+        padding: 30px 10px;  /* increased side padding from 5px to 10px for gaps */
+        position: relative;
+    }
+
+    #game-container {
+        max-width: 100vw;
+        box-sizing: border-box;
     }
 
     .game-board {
         grid-template-columns: repeat(4, 1fr);
         gap: 6px;
         width: 100%;
-        max-width: 510px;
+        max-width: 100%;  /* changed from 510px to 100% to respect container */
         margin: var(--spacing-lg) auto;
+        box-sizing: border-box;
     }
 
     .word-tile {
@@ -347,6 +359,7 @@ button {
         aspect-ratio: 1;
         font-size: 13px;
         padding: 4px;
+        box-sizing: border-box;
     }
 
     h1 {
@@ -356,5 +369,7 @@ button {
     .solved-category {
         height: auto;
         min-height: 80px;
+        box-sizing: border-box;
     }
 }
+
