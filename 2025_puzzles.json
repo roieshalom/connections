@@ -87,17 +87,17 @@
     "language": "en",
     "categories": [
       {
-        "name": "Types of Trees",
+        "name": "Voice types",
         "words": [
-          "OAK",
-          "PINE",
-          "BIRCH",
-          "MAPLE"
+          "SOPRANO",
+          "ALTO",
+          "TENOR",
+          "BASS"
         ],
         "difficulty": "yellow"
       },
       {
-        "name": "Words that can follow 'Light'",
+        "name": "'Light ____'",
         "words": [
           "HOUSE",
           "YEAR",
@@ -117,7 +117,7 @@
         "difficulty": "green"
       },
       {
-        "name": "Words forming compounds with 'Star'",
+        "name": "'Star ____'",
         "words": [
           "FISH",
           "DUST",
