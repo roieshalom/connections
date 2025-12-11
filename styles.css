@@ -54,25 +54,25 @@
    BASE STYLES
    ========================================== */
 
-html, body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background: var(--color-bg-gradient);
     display: flex;
     justify-content: center;
-    align-items: flex-start;   /* push content to top instead of center */
+    align-items: flex-start;
     min-height: 100vh;
-    padding: 20px
+    padding: 20px;
 }
 
 h1 {
@@ -100,7 +100,7 @@ h1 {
 
 .solved-categories {
     margin-bottom: var(--spacing-md);
-        width: 100%;
+    width: 100%;
     max-width: 510px;
 }
 
@@ -109,7 +109,7 @@ h1 {
     margin-bottom: var(--spacing-sm);
     border-radius: var(--radius-md);
     text-align: center;
-    height: 120px;              /* match tile height */
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,27 +119,15 @@ h1 {
     animation: solvedIn 0.6s ease forwards;
 }
 
-
 .solved-category.yellow { background-color: var(--color-yellow); }
 .solved-category.green { background-color: var(--color-green); }
 .solved-category.blue { background-color: var(--color-blue); }
 .solved-category.purple { background-color: var(--color-purple); }
 
-.solved-category {
-    padding: var(--spacing-md);
-    margin-bottom: var(--spacing-sm);
-    border-radius: var(--radius-sm);
-    text-align: center;
-    opacity: 0;
-    transform: translateY(-8px);
-    animation: solvedIn 0.6s ease forwards;
-}
-
 @keyframes solvedIn {
     0%   { opacity: 0; transform: translateY(-8px); }
     100% { opacity: 1; transform: translateY(0); }
 }
-
 
 .category-name {
     font-family: var(--font-primary);
@@ -163,9 +151,7 @@ h1 {
     justify-content: center;
     width: 100%;
     max-width: 510px;
-    overflow-x: hidden;
 }
-
 
 .word-tile {
     background: var(--color-surface);
@@ -180,7 +166,7 @@ h1 {
     transition: transform 0.15s ease, box-shadow 0.15s ease,
                 background-color 0.15s ease, opacity 0.2s ease;
     width: 120px;
-    height: 120px;              /* explicit height */
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,6 +178,7 @@ h1 {
     0%   { opacity: 0; transform: translateY(5px); }
     100% { opacity: 1; transform: translateY(0); }
 }
+
 .word-tile:hover {
     background-color: #f0f0f0;
 }
@@ -207,7 +194,6 @@ h1 {
     box-shadow: var(--shadow-md);
 }
 
-/* Selected group animation */
 .word-tile.group-selected {
     background-color: var(--color-primary);
     color: #fff;
@@ -215,7 +201,6 @@ h1 {
     transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-/* Correct: happy hop */
 .word-tile.correct-hop {
     animation: correctHop 0.25s ease-out;
 }
@@ -226,7 +211,6 @@ h1 {
     100% { transform: translateY(0); }
 }
 
-/* Then dissolve upwards */
 .word-tile.correct-resolve {
     animation: correctResolve 0.5s ease-out forwards;
 }
@@ -235,7 +219,6 @@ h1 {
     opacity: 0.5;
     cursor: default;
 }
-
 
 @keyframes correctResolve {
     0% {
@@ -248,19 +231,7 @@ h1 {
     }
 }
 
-
-/* Correct group leaving the board */
-.word-tile.group-selected {
-    background-color: var(--color-primary);
-    color: #fff;
-    box-shadow: var(--shadow-md);
-    transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-
-/* Wrong guess animation */
 .word-tile.wrong-guess {
-    /* Important: override any other transform */
     animation: wrongShake 0.3s ease;
 }
 
@@ -280,7 +251,6 @@ h1 {
     margin-bottom: var(--spacing-md);
 }
 
-/* Unified button styles */
 button {
     padding: 12px 24px;
     font-size: var(--font-size-base);
@@ -291,7 +261,6 @@ button {
     transition: background-color 0.2s, color 0.2s, border-color 0.2s;
 }
 
-/* Primary: Submit */
 #submit-btn {
     background-color: var(--color-primary);
     color: #fff;
@@ -306,7 +275,6 @@ button {
     background-color: var(--color-primary-hover);
 }
 
-/* Secondary: Deselect + Shuffle */
 #deselect-btn,
 #shuffle-btn {
     background-color: var(--color-surface);
@@ -326,87 +294,30 @@ button {
 }
 
 /* ==========================================
-   RESPONSIVE
+   RESPONSIVE (merged single media query)
    ========================================== */
 @media (max-width: 600px) {
-    * {
-        box-sizing: border-box;
-    }
-
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
     body {
-        padding: 20px 15px;  /* 15px side gaps */
+        padding: 20px 0;  /* remove side padding from body */
     }
 
-    /* Force all containers to respect viewport */
-    body > * {
-        max-width: 100%;
-    }
-
-    #game-board,
-    .game-board {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 5px;  /* reduce gap from 6px to 5px */
-        width: 100%;
-        max-width: 100%;
-        margin: 20px auto;
-        padding: 0;
-    }
-
-    .word-tile {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1;
-        font-size: 12px;  /* slightly smaller text */
-        padding: 2px;     /* reduce internal padding */
+    .container {
+        padding: 0 12px;  /* add side gaps here instead */
+        max-width: 100vw;
+        overflow-x: hidden;
     }
 
     h1 {
-        font-size: 4.5em;  /* reduce title size */
+        font-size: 4em;
         margin: 10px 0;
-    }
-
-    .solved-category {
-        height: auto;
-        min-height: 80px;
-    }
-
-    .controls {
-        max-width: 100%;
-    }
-}
-@media (max-width: 600px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-        margin: 0;
-    }
-
-    body {
-        padding: 30px 0;  /* no horizontal padding on body */
-        position: relative;
-    }
-
-    /* Add side padding to the main container */
-    #game-container {
-        padding: 0 15px;  /* 15px gaps on left/right */
-        box-sizing: border-box;
-        max-width: 100vw;
     }
 
     .game-board {
         grid-template-columns: repeat(4, 1fr);
         gap: 6px;
         width: 100%;
-        max-width: none;  /* let it fill the padded container */
-        margin: var(--spacing-lg) auto;
-        box-sizing: border-box;
+        max-width: 100%;
+        margin: var(--spacing-lg) 0;  /* remove auto centering margin */
     }
 
     .word-tile {
@@ -415,21 +326,28 @@ button {
         aspect-ratio: 1;
         font-size: 13px;
         padding: 4px;
-        box-sizing: border-box;
-    }
-
-    h1 {
-        font-size: 6em;
     }
 
     .solved-category {
         height: auto;
         min-height: 80px;
-        box-sizing: border-box;
     }
 
-    /* also pad buttons/message */
-    .controls, #message {
-        box-sizing: border-box;
+    .solved-categories {
+        max-width: 100%;
+    }
+
+    .controls {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .stats {
+        font-size: 16px;
     }
 }
