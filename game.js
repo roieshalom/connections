@@ -381,8 +381,8 @@ function showMessage(text, type = 'info', duration = 1200) {
     else if (type === 'incorrect') overlay.classList.add('incorrect');
     else overlay.classList.add('info');
 
-    // position relative to current board location
-    positionMessageOverBoard();
+    // remove this line:
+    // positionMessageOverBoard();
 
     overlay.classList.add('visible');
 
@@ -392,6 +392,7 @@ function showMessage(text, type = 'info', duration = 1200) {
         }, duration);
     }
 }
+
 
 function positionMessageOverBoard() {
     const overlay = document.getElementById('message-overlay');
