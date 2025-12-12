@@ -44,7 +44,7 @@
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 18px;
-    
+    --radius-xl: 24px;    
     /* Shadows */
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.06);
     --shadow-md: 0 6px 14px rgba(0,0,0,0.15);
@@ -236,16 +236,22 @@ h1 {
 
 .controls {
     display: flex;
-    gap: var(--spacing-sm);
-    justify-content: center;
+    justify-content: center;          /* keep the group centered */
+    align-items: center;
+    gap: var(--spacing-xl);
     margin-bottom: var(--spacing-md);
 }
 
+/* Make buttons flex containers so icon+label align nicely */
 button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;                         /* space between icon and text */
     padding: 12px 24px;
     font-size: var(--font-size-base);
     font-weight: 600;
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-xl);
     cursor: pointer;
     border: none;
     transition: background-color 0.2s, color 0.2s, border-color 0.2s;
@@ -282,6 +288,7 @@ button {
     font-size: var(--font-size-large);
     color: var(--color-text-muted);
 }
+
 
 /* ==========================================
    MESSAGE
