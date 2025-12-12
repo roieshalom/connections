@@ -329,7 +329,7 @@ button {
 /* status variants */
 .message-overlay.correct {
     font-family: "Arial";
-    font-size: 12px;
+    font-size: 18px;
     color: #000000;
     background: var(--color-bg-main);
     border-color: var(--color-text);
