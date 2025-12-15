@@ -381,20 +381,19 @@ button {
   font-family: var(--font-primary);
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: var(--spacing-sm);
+  gap: 0.3em ;
   margin: var(--spacing-lg) auto;
   width: 100%;
   max-width: 510px;
 }
 
-
-
   .word-tile {
     width: 100%;
     height: auto;
     aspect-ratio: 1;
-    font-size: clamp(11px, 4vw, 16px);
-    padding: 4px;
+    font-size: clamp(13px, 2.1vw, 18px);
+    text-wrap: balance;    padding: 4px;
     box-sizing: border-box;
   }
 }
+
