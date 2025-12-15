@@ -128,7 +128,6 @@ h1 {
 .solved-categories {
   margin-bottom: var(--spacing-sm);
   width: 100%;
-  max-width: 510px;
 }
 
 .solved-category {
@@ -480,6 +479,8 @@ background-color: #f0f0f0;
 .controls,
 .stats {
   width: 100%;
+  max-width: 95%;
+  margin: 0 auto var(--spacing-sm);  /* center + bottom gap */
 }
 
   .controls {
