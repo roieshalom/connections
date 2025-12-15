@@ -364,9 +364,14 @@ button {
    RESPONSIVE (merged single media query)
    ========================================== */
 @media (max-width: 600px) {
-    body {
-        padding: 20px 0;
-    }
+  body {
+    padding: 20px;
+  }
+
+    .board {
+    padding: 0 12px;   /* tweak 12px to match your tile gap */
+    box-sizing: border-box;
+  }
 
     .container {
         padding: 0 12px;
