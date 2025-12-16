@@ -72,6 +72,9 @@ function loadFinalState() {
   }
 }
 
+const TROPHY_KEY = '4hiburim-trophies';
+
+
 // ----- in‑progress state -----
 
 function getTodayProgressKey() {
@@ -106,6 +109,31 @@ function clearProgressState() {
   const key = getTodayProgressKey();
   localStorage.removeItem(key);
 }
+
+function getTrophyCount() {
+  const raw = localStorage.getItem(TROPHY_KEY);
+  const n = raw == null ? 0 : parseInt(raw, 10);
+  return isNaN(n) ? 0 : n;
+}
+
+function setTrophyCount(n) {
+  localStorage.setItem(TROPHY_KEY, String(n));
+}
+
+function updateTrophyDisplay(value) {
+  const el = document.getElementById('trophy-count');
+  if (!el) return;
+  el.textContent = value;
+}
+
+function incrementTrophyCount() {
+  const current = getTrophyCount();
+  const next = current + 1;
+  setTrophyCount(next);
+  updateTrophyDisplay(next);
+}
+
+
 
 // ------------------ GAME INITIALIZATION ------------------
 
@@ -299,16 +327,20 @@ function handleCorrectGuess(category) {
 
     const wasLastGroup = remainingWords.length === 0;
 
-    if (wasLastGroup) {
-      lockTodayPuzzle();
-      saveFinalState({
-        type: 'solved',
-        solvedCategories: solvedCategories.slice(),
-        mistakes
-      });
-      remainingWords = [];
-      renderFullSolutionGrid(solvedCategories);
-    }
+if (wasLastGroup) {
+  lockTodayPuzzle();
+  saveFinalState({
+    type: 'solved',
+    solvedCategories: solvedCategories.slice(),
+    mistakes
+  });
+
+  incrementTrophyCount();  // update the trophy counter
+
+  remainingWords = [];
+  renderFullSolutionGrid(solvedCategories);
+}
+
 
     updateDisplay();
 
@@ -512,6 +544,8 @@ async function startGame() {
   console.log('startGame called');
   await loadPuzzles();
   console.log('puzzles after load:', puzzles);
+
+  updateTrophyDisplay(getTrophyCount());
 
   if (puzzles.length === 0) {
     showMessage('No puzzles loaded.', 'incorrect');
