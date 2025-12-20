@@ -409,5 +409,147 @@
         "difficulty": "blue"
       }
     ]
-  }
-]}
+  },
+  {
+      "id": "10",
+      "date": "19.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Things That Are Blue",
+          "words": [
+            "CHEESE",
+            "BLOOD",
+            "WHALE",
+            "MOON"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Types of Shots",
+          "words": [
+            "JUMP",
+            "MOON",
+            "PARROT",
+            "SLAM"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Famous Explorers",
+          "words": [
+            "LEWIS",
+            "SCOTT",
+            "COOK",
+            "POLE"
+          ],
+          "difficulty": "blue"
+        },
+        {
+          "name": "Words Before DUNK",
+          "words": [
+            "SLAM",
+            "SPONGY",
+            "SWEET",
+            "ROCKET"
+          ],
+          "difficulty": "purple"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "date": "20.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Renaissance Artists",
+          "words": [
+            "MICHELANGELO",
+            "RAPHAEL",
+            "LEONARDO",
+            "DONATELLO"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Idioms with Animal Names",
+          "words": [
+            "HORSEPLAY",
+            "COLD TURKEY",
+            "ELEPHANT IN",
+            "WHITE ELEPHANT"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Words That Follow 'Fire'",
+          "words": [
+            "DRILL",
+            "ISLAND",
+            "OPAL",
+            "ANT"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Words with Double Meanings Related to Nature",
+          "words": [
+            "COLD",
+            "LEAF",
+            "SPRING",
+            "BAT"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "date": "21.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Colors named after gemstones",
+          "words": [
+            "AMBER",
+            "JADE",
+            "RUBY",
+            "SAPPHIRE"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Phrases including 'Break'",
+          "words": [
+            "BREAKWATER",
+            "BREAKTHROUGH",
+            "BREAKDANCE",
+            "BREAKUP"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Famous Jazz Musicians",
+          "words": [
+            "DAVIS",
+            "ELLINGTON",
+            "COLTRANE",
+            "BASIE"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Words that can mean both a person and a plant",
+          "words": [
+            "BASIL",
+            "ROSE",
+            "JACK",
+            "CHERRY"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    }
+  ]
+}
