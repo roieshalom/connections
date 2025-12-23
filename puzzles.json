@@ -7,22 +7,42 @@
       "categories": [
         {
           "name": "Kitchen Utensils",
-          "words": ["FORK", "SPOON", "KNIFE", "WHISK"],
+          "words": [
+            "FORK",
+            "SPOON",
+            "KNIFE",
+            "WHISK"
+          ],
           "difficulty": "yellow"
         },
         {
           "name": "Board Games",
-          "words": ["RISK", "CLUE", "LIFE", "MONOPOLY"],
+          "words": [
+            "RISK",
+            "CLUE",
+            "LIFE",
+            "MONOPOLY"
+          ],
           "difficulty": "green"
         },
         {
           "name": "Things You Can DRAW",
-          "words": ["BATH", "GUN", "CARD", "CURTAIN"],
+          "words": [
+            "BATH",
+            "GUN",
+            "CARD",
+            "CURTAIN"
+          ],
           "difficulty": "blue"
         },
         {
           "name": "Words Before LINE",
-          "words": ["SKY", "DEAD", "HEAD", "PUNCH"],
+          "words": [
+            "SKY",
+            "DEAD",
+            "HEAD",
+            "PUNCH"
+          ],
           "difficulty": "purple"
         }
       ]
@@ -34,22 +54,42 @@
       "categories": [
         {
           "name": "Kitchen Utensils",
-          "words": ["FORK", "SPOON", "KNIFE", "WHISK"],
+          "words": [
+            "FORK",
+            "SPOON",
+            "KNIFE",
+            "WHISK"
+          ],
           "difficulty": "yellow"
         },
         {
           "name": "Board Games",
-          "words": ["RISK", "CLUE", "LIFE", "MONOPOLY"],
+          "words": [
+            "RISK",
+            "CLUE",
+            "LIFE",
+            "MONOPOLY"
+          ],
           "difficulty": "green"
         },
         {
           "name": "Things You Can DRAW",
-          "words": ["BATH", "GUN", "CARD", "CURTAIN"],
+          "words": [
+            "BATH",
+            "GUN",
+            "CARD",
+            "CURTAIN"
+          ],
           "difficulty": "blue"
         },
         {
           "name": "Words Before LINE",
-          "words": ["SKY", "DEAD", "HEAD", "PUNCH"],
+          "words": [
+            "SKY",
+            "DEAD",
+            "HEAD",
+            "PUNCH"
+          ],
           "difficulty": "purple"
         }
       ]
@@ -61,356 +101,377 @@
       "categories": [
         {
           "name": "Coffee Drinks",
-          "words": ["LATTE", "MOCHA", "ESPRESSO", "CAPPUCCINO"],
+          "words": [
+            "LATTE",
+            "MOCHA",
+            "ESPRESSO",
+            "CAPPUCCINO"
+          ],
           "difficulty": "yellow"
         },
         {
           "name": "Types of Trees",
-          "words": ["OAK", "PINE", "MAPLE", "BIRCH"],
+          "words": [
+            "OAK",
+            "PINE",
+            "MAPLE",
+            "BIRCH"
+          ],
           "difficulty": "green"
         },
         {
           "name": "___ PARTY",
-          "words": ["TEA", "HOUSE", "THIRD", "DINNER"],
+          "words": [
+            "TEA",
+            "HOUSE",
+            "THIRD",
+            "DINNER"
+          ],
           "difficulty": "blue"
         },
         {
           "name": "fingers",
-          "words": ["TOE", "PINKY", "THUMB", "MIDDLE"],
+          "words": [
+            "TOE",
+            "PINKY",
+            "THUMB",
+            "MIDDLE"
+          ],
           "difficulty": "purple"
         }
       ]
     },
-  {
-    "id": "3",
-    "date": "12.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Voice types",
-        "words": [
-          "SOPRANO",
-          "ALTO",
-          "TENOR",
-          "BASS"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "'Light ____'",
-        "words": [
-          "HOUSE",
-          "YEAR",
-          "SPEED",
-          "BULB"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Mythological Creatures",
-        "words": [
-          "HYDRA",
-          "PHOENIX",
-          "GRIFFIN",
-          "SPHINX"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "'Star ____'",
-        "words": [
-          "FISH",
-          "DUST",
-          "GATE",
-          "WARS"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "date": "13.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Common farm animals",
-        "words": [
-          "COW",
-          "SHEEP",
-          "GOAT",
-          "CHICKEN"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Phrases with 'Head'",
-        "words": [
-          "ACHE",
-          "LIGHT",
-          "LINE",
-          "STONE"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Classical music composers",
-        "words": [
-          "MOZART",
-          "BEETHOVEN",
-          "BACH",
-          "VIVALDI"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Idioms with 'Break'",
-        "words": [
-          "NECK",
-          "GROUND",
-          "ICE",
-          "RECORD"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "date": "14.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Types of pasta",
-        "words": [
-          "FUSILLI",
-          "PENNE",
-          "LINGUINE",
-          "FARFALLE"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Words that can follow 'Blue'",
-        "words": [
-          "MOON",
-          "PRINT",
-          "BELL",
-          "BERRY"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Shakespearean characters",
-        "words": [
-          "OPHELIA",
-          "MACBETH",
-          "IAGO",
-          "CORDELIA"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Words containing chemical element symbols",
-        "words": [
-          "BACON",
-          "COBALT",
-          "NICKEL",
-          "FRANCIUM"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "date": "15.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Types of hats",
-        "words": [
-          "FEDORA",
-          "BERET",
-          "BOWLER",
-          "PANAMA"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Words that can follow the word 'Cold'",
-        "words": [
-          "WAR",
-          "BREW",
-          "SNAP",
-          "SHOULDER"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Classical music composers",
-        "words": [
-          "MOZART",
-          "BACH",
-          "CHOPIN",
-          "DEBUSSY"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Phrasal verbs with 'Out'",
-        "words": [
-          "BUG OUT",
-          "FLIP OUT",
-          "FREAK OUT",
-          "WIG OUT"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "date": "16.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Parts of the eye",
-        "words": [
-          "PUPIL",
-          "IRIS",
-          "LID",
-          "LASH"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Things You Can Catch",
-        "words": [
-          "COLD",
-          "BALL",
-          "EYE",
-          "BREATH"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Famous Mythological Creatures",
-        "words": [
-          "HYDRA",
-          "PHOENIX",
-          "MINOTAUR",
-          "GRIFFIN"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Words That Can Precede 'Book'",
-        "words": [
-          "PHONE",
-          "GUIDE",
-          "COOK",
-          "FACE"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "date": "17.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Types of hats",
-        "words": [
-          "FEDORA",
-          "BEANIE",
-          "BERET",
-          "SOMBRERO"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Words that can follow 'light'",
-        "words": [
-          "HOUSE",
-          "YEAR",
-          "FOOT",
-          "SPEED"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Classical music composers",
-        "words": [
-          "MOZART",
-          "BACH",
-          "VIVALDI",
-          "HANDEL"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Idioms with 'break'",
-        "words": [
-          "FAST",
-          "SILENCE",
-          "NECK",
-          "RECORD"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "date": "18.12.2025",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Common pets",
-        "words": [
-          "DOG",
-          "CAT",
-          "PARROT",
-          "HAMSTER"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Words that can follow 'Light'",
-        "words": [
-          "YEAR",
-          "HOUSE",
-          "BULB",
-          "SPEED"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Types of fabric",
-        "words": [
-          "DENIM",
-          "SATIN",
-          "LINEN",
-          "VELVET"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Words associated with mythology",
-        "words": [
-          "APOLLO",
-          "HYDRA",
-          "MIDAS",
-          "PEGASUS"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
-  {
+    {
+      "id": "3",
+      "date": "12.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Voice types",
+          "words": [
+            "SOPRANO",
+            "ALTO",
+            "TENOR",
+            "BASS"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "'Light ____'",
+          "words": [
+            "HOUSE",
+            "YEAR",
+            "SPEED",
+            "BULB"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Mythological Creatures",
+          "words": [
+            "HYDRA",
+            "PHOENIX",
+            "GRIFFIN",
+            "SPHINX"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "'Star ____'",
+          "words": [
+            "FISH",
+            "DUST",
+            "GATE",
+            "WARS"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "date": "13.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Common farm animals",
+          "words": [
+            "COW",
+            "SHEEP",
+            "GOAT",
+            "CHICKEN"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Phrases with 'Head'",
+          "words": [
+            "ACHE",
+            "LIGHT",
+            "LINE",
+            "STONE"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Classical music composers",
+          "words": [
+            "MOZART",
+            "BEETHOVEN",
+            "BACH",
+            "VIVALDI"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Idioms with 'Break'",
+          "words": [
+            "NECK",
+            "GROUND",
+            "ICE",
+            "RECORD"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "date": "14.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Types of pasta",
+          "words": [
+            "FUSILLI",
+            "PENNE",
+            "LINGUINE",
+            "FARFALLE"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Words that can follow 'Blue'",
+          "words": [
+            "MOON",
+            "PRINT",
+            "BELL",
+            "BERRY"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Shakespearean characters",
+          "words": [
+            "OPHELIA",
+            "MACBETH",
+            "IAGO",
+            "CORDELIA"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Words containing chemical element symbols",
+          "words": [
+            "BACON",
+            "COBALT",
+            "NICKEL",
+            "FRANCIUM"
+          ],
+          "difficulty": "blue"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "6",
+      "date": "15.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Types of hats",
+          "words": [
+            "FEDORA",
+            "BERET",
+            "BOWLER",
+            "PANAMA"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Words that can follow the word 'Cold'",
+          "words": [
+            "WAR",
+            "BREW",
+            "SNAP",
+            "SHOULDER"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Classical music composers",
+          "words": [
+            "MOZART",
+            "BACH",
+            "CHOPIN",
+            "DEBUSSY"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Phrasal verbs with 'Out'",
+          "words": [
+            "BUG OUT",
+            "FLIP OUT",
+            "FREAK OUT",
+            "WIG OUT"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "date": "16.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Parts of the eye",
+          "words": [
+            "PUPIL",
+            "IRIS",
+            "LID",
+            "LASH"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Things You Can Catch",
+          "words": [
+            "COLD",
+            "BALL",
+            "EYE",
+            "BREATH"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Famous Mythological Creatures",
+          "words": [
+            "HYDRA",
+            "PHOENIX",
+            "MINOTAUR",
+            "GRIFFIN"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Words That Can Precede 'Book'",
+          "words": [
+            "PHONE",
+            "GUIDE",
+            "COOK",
+            "FACE"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "date": "17.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Types of hats",
+          "words": [
+            "FEDORA",
+            "BEANIE",
+            "BERET",
+            "SOMBRERO"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Words that can follow 'light'",
+          "words": [
+            "HOUSE",
+            "YEAR",
+            "FOOT",
+            "SPEED"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Classical music composers",
+          "words": [
+            "MOZART",
+            "BACH",
+            "VIVALDI",
+            "HANDEL"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Idioms with 'break'",
+          "words": [
+            "FAST",
+            "SILENCE",
+            "NECK",
+            "RECORD"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "date": "18.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Common pets",
+          "words": [
+            "DOG",
+            "CAT",
+            "PARROT",
+            "HAMSTER"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Words that can follow 'Light'",
+          "words": [
+            "YEAR",
+            "HOUSE",
+            "BULB",
+            "SPEED"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Types of fabric",
+          "words": [
+            "DENIM",
+            "SATIN",
+            "LINEN",
+            "VELVET"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Words associated with mythology",
+          "words": [
+            "APOLLO",
+            "HYDRA",
+            "MIDAS",
+            "PEGASUS"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
       "id": "10",
       "date": "19.12.2025",
       "language": "en",
@@ -593,105 +654,104 @@
             "SNOW",
             "PIN",
             "GLASS"
-        ],
-        "difficulty": "purple"
-      }
-    ]
-  },
-  {
-    "date": "23.12.2025",
-    "id": "14",
-    "language": "en",
-    "categories": [
-      {
-        "name": "Things That Are Sweet",
-        "words": [
-          "HONEY",
-          "CAKE",
-          "CANDY",
-          "SUGAR"
-        ],
-        "difficulty": "yellow"
-      },
-      {
-        "name": "Things You Can Press",
-        "words": [
-          "BUTTON",
-          "FLOWER",
-          "JUICE",
-          "RECORD"
-        ],
-        "difficulty": "green"
-      },
-      {
-        "name": "Things That Can Break",
-        "words": [
-          "GLASS",
-          "HEART",
-          "NEWS",
-          "CHAIN"
-        ],
-        "difficulty": "purple"
-      },
-      {
-        "name": "Words That Can Follow 'Glass'",
-        "words": [
-          "CEILING",
-          "HOUSE",
-          "WARE",
-          "CASE"
-        ],
-        "difficulty": "blue"
-      }
-    ]
-  },
+          ],
+          "difficulty": "purple"
+        }
+      ]
+    },
+    {
+      "date": "23.12.2025",
+      "id": "14",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Things That Are Sweet",
+          "words": [
+            "HONEY",
+            "CAKE",
+            "CANDY",
+            "SUGAR"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Things You Can Press",
+          "words": [
+            "BUTTON",
+            "FLOWER",
+            "JUICE",
+            "RECORD"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Things That Can Break",
+          "words": [
+            "GLASS",
+            "HEART",
+            "NEWS",
+            "CHAIN"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Words That Can Follow 'Glass'",
+          "words": [
+            "CEILING",
+            "HOUSE",
+            "WARE",
+            "CASE"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
     {
       "id": "15",
       "date": "24.12.2025",
       "language": "en",
       "categories": [
-      {
-        "name": "Fruit With Seeds",
-        "words": [
-        "APPLE",
-        "PEAR",
-        "GRAPE",
-        "KIWI"
-      ],
-      "difficulty": "yellow"
-      },
-      {
-        "name": "Fruit Without Seeds",
-        "words": [
-        "BANANA",
-        "DATE",
-        "FIG",
-        "OLIVE"
-      ],
-      "difficulty": "green"
-      },
-      {
-        "name": "Vegetables",
-        "words": [
-        "PEPPER",
-        "LETTUCE",
-        "BROCCOLI",
-        "CELERY"
-      ],
-      "difficulty": "green"
-      },
-      {
-        "name": "Root Vegetables",
-        "words": [
-        "CARROT",
-        "TURNIP",
-        "BEET",
-        "RADISH"
-      ],
-      "difficulty": "blue"
+        {
+          "name": "Fruit With Seeds",
+          "words": [
+            "APPLE",
+            "PEAR",
+            "GRAPE",
+            "KIWI"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Fruit Without Seeds",
+          "words": [
+            "BANANA",
+            "DATE",
+            "FIG",
+            "OLIVE"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Vegetables",
+          "words": [
+            "PEPPER",
+            "LETTUCE",
+            "BROCCOLI",
+            "CELERY"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Root Vegetables",
+          "words": [
+            "CARROT",
+            "TURNIP",
+            "BEET",
+            "RADISH"
+          ],
+          "difficulty": "blue"
+        }
+      ]
     }
-
   ]
-}
-]
 }
