@@ -54,46 +54,47 @@
       "language": "en",
       "categories": [
         {
-          "name": "Kitchen Utensils",
+          "name": "Types of Clocks",
           "words": [
-            "FORK",
-            "SPOON",
-            "KNIFE",
-            "WHISK"
+            "WALL",
+            "DIGITAL",
+            "SAND",
+            "POCKET"
           ],
           "difficulty": "yellow"
         },
         {
-          "name": "Board Games",
+          "name": "Weather Terms",
           "words": [
-            "RISK",
-            "CLUE",
-            "LIFE",
-            "MONOPOLY"
+            "CIRRUS",
+            "CUMULUS",
+            "STRATUS",
+            "NIMBUS"
           ],
           "difficulty": "green"
         },
         {
-          "name": "Things You Can DRAW",
+          "name": "Weather Phenomena",
           "words": [
-            "BATH",
-            "GUN",
-            "CARD",
-            "CURTAIN"
+            "TORNADO",
+            "HURRICANE",
+            "DROUGHT",
+            "LIGHTNING"
           ],
           "difficulty": "blue"
         },
         {
-          "name": "Words Before LINE",
+          "name": "Abstract Concepts",
           "words": [
-            "SKY",
-            "DEAD",
-            "HEAD",
-            "PUNCH"
+            "FREEDOM",
+            "EQUALITY",
+            "TRANSCENDENCE",
+            "SYNERGY"
           ],
           "difficulty": "purple"
         }
-      ]
+      ],
+      "status": "published"
     },
     {
       "id": "2",
