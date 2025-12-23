@@ -521,109 +521,103 @@
       "language": "en"
     },
     {
-      "_validation": {
-        "duplicate_words": [
-          "SLAM",
-          "MOON"
-        ],
-        "errors": [
-          "Duplicate word 'MOON' within this puzzle",
-          "Duplicate word 'SLAM' within this puzzle"
-        ],
-        "valid": false
-      },
+      "language": "en",
       "categories": [
         {
-          "difficulty": "yellow",
           "name": "Things That Are Blue",
           "words": [
             "CHEESE",
             "BLOOD",
             "WHALE",
             "MOON"
-          ]
+          ],
+          "difficulty": "yellow"
         },
         {
-          "difficulty": "green",
           "name": "Types of Shots",
           "words": [
             "JUMP",
             "MOON",
             "PARROT",
             "SLAM"
-          ]
+          ],
+          "difficulty": "green"
         },
         {
-          "difficulty": "blue",
           "name": "Famous Explorers",
           "words": [
             "LEWIS",
             "SCOTT",
             "COOK",
             "POLE"
-          ]
+          ],
+          "difficulty": "blue"
         },
         {
-          "difficulty": "purple",
           "name": "Words Before DUNK",
           "words": [
             "SLAM",
             "SPONGY",
             "SWEET",
             "ROCKET"
-          ]
+          ],
+          "difficulty": "purple"
         }
       ],
-      "date": "19.12.2025",
       "id": "10",
-      "language": "en"
+      "date": "19.12.2025"
     },
     {
-      "language": "en",
+      "_validation": {
+        "duplicate_words": [],
+        "errors": [],
+        "valid": true
+      },
       "categories": [
         {
+          "difficulty": "yellow",
           "name": "Renaissance Artists",
           "words": [
             "MICHELANGELO",
             "RAPHAEL",
             "LEONARDO",
             "DONATELLO"
-          ],
-          "difficulty": "yellow"
+          ]
         },
         {
+          "difficulty": "green",
           "name": "Idioms with Animal Names",
           "words": [
             "HORSEPLAY",
             "COLD TURKEY",
             "ELEPHANT IN",
             "WHITE ELEPHANT"
-          ],
-          "difficulty": "green"
+          ]
         },
         {
+          "difficulty": "green",
           "name": "Words That Follow 'Fire'",
           "words": [
             "DRILL",
             "ISLAND",
             "OPAL",
             "ANT"
-          ],
-          "difficulty": "green"
+          ]
         },
         {
+          "difficulty": "blue",
           "name": "Words with Double Meanings Related to Nature",
           "words": [
             "COLD",
             "LEAF",
             "SPRING",
             "BAT"
-          ],
-          "difficulty": "blue"
+          ]
         }
       ],
+      "date": "20.12.2025",
       "id": "11",
-      "date": "20.12.2025"
+      "language": "en"
     },
     {
       "_validation": {
