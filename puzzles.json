@@ -56,49 +56,50 @@
       },
       "categories": [
         {
-          "difficulty": "yellow",
           "name": "Kitchen Utensils",
           "words": [
             "FORK",
             "SPOON",
             "KNIFE",
             "WHISK"
-          ]
+          ],
+          "difficulty": "yellow"
         },
         {
-          "difficulty": "green",
           "name": "Board Games",
           "words": [
             "RISK",
             "CLUE",
             "LIFE",
             "MONOPOLY"
-          ]
+          ],
+          "difficulty": "green"
         },
         {
-          "difficulty": "blue",
           "name": "Things You Can DRAW",
           "words": [
             "BATH",
             "GUN",
             "CARD",
             "CURTAIN"
-          ]
+          ],
+          "difficulty": "blue"
         },
         {
-          "difficulty": "purple",
           "name": "Words Before LINE",
           "words": [
             "SKY",
             "DEAD",
             "HEAD",
             "PUNCH"
-          ]
+          ],
+          "difficulty": "purple"
         }
       ],
       "date": "10.12.2025",
       "id": "1",
-      "language": "en"
+      "language": "en",
+      "status": "published"
     },
     {
       "_validation": {
