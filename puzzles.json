@@ -115,53 +115,6 @@
       "status": "published"
     },
     {
-      "id": "4",
-      "date": "13.12.2025",
-      "language": "en",
-      "categories": [
-        {
-          "name": "Common farm animals",
-          "words": [
-            "COW",
-            "SHEEP",
-            "GOAT",
-            "CHICKEN"
-          ],
-          "difficulty": "yellow"
-        },
-        {
-          "name": "Phrases with 'Head'",
-          "words": [
-            "ACHE",
-            "LIGHT",
-            "LINE",
-            "STONE"
-          ],
-          "difficulty": "purple"
-        },
-        {
-          "name": "Classical music composers",
-          "words": [
-            "MOZART",
-            "BEETHOVEN",
-            "BACH",
-            "VIVALDI"
-          ],
-          "difficulty": "green"
-        },
-        {
-          "name": "Idioms with 'Break'",
-          "words": [
-            "NECK",
-            "GROUND",
-            "ICE",
-            "RECORD"
-          ],
-          "difficulty": "blue"
-        }
-      ]
-    },
-    {
       "id": "5",
       "date": "14.12.2025",
       "language": "en",
@@ -720,6 +673,54 @@
             "DUST",
             "GATE",
             "WARS"
+          ],
+          "difficulty": "blue"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "4",
+      "date": "13.12.2025",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Common farm animals",
+          "words": [
+            "COW",
+            "SHEEP",
+            "GOAT",
+            "CHICKEN"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Phrases with 'Head'",
+          "words": [
+            "ACHE",
+            "LIGHT",
+            "LINE",
+            "STONE"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Classical music composers",
+          "words": [
+            "MOZART",
+            "BEETHOVEN",
+            "BACH",
+            "VIVALDI"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Idioms with 'Break'",
+          "words": [
+            "NECK",
+            "GROUND",
+            "ICE",
+            "RECORD"
           ],
           "difficulty": "blue"
         }
