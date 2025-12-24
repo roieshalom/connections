@@ -1,4 +1,3 @@
-
 {
   "puzzles": [
     {
@@ -721,6 +720,53 @@
             "TURNIP",
             "BEET",
             "RADISH"
+          ],
+          "difficulty": "blue"
+        }
+      ]
+    },
+    {
+      "date": "26.12.2025",
+      "id": "16",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Christmas",
+          "words": [
+            "TREE",
+            "SANTA",
+            "GIFT",
+            "SNOW"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Things you find in the forest",
+          "words": [
+            "MOSS",
+            "CANOPY",
+            "FUNGUS",
+            "BRACKEN"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "From the bakery",
+          "words": [
+            "BAGUETTE",
+            "CROISSANT",
+            "ECLAIR",
+            "FOCACCIA"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Types of charts",
+          "words": [
+            "BAR",
+            "LINE",
+            "PIE",
+            "SCATTER"
           ],
           "difficulty": "blue"
         }
