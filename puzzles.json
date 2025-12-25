@@ -771,6 +771,53 @@
           "difficulty": "blue"
         }
       ]
+    },
+    {
+      "date": "26.12.2025",
+      "id": "17",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Common Snacks",
+          "words": [
+            "CHIPS",
+            "CANDY",
+            "NUTS",
+            "COOKIES"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Fictional Constructs",
+          "words": [
+            "TARDIS",
+            "HOGWARTS",
+            "WAKANDA",
+            "NARNIA"
+          ],
+          "difficulty": "purple"
+        },
+        {
+          "name": "Mountain Ranges",
+          "words": [
+            "ANDES",
+            "ALPS",
+            "ROCKIES",
+            "HIMALAYAS"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Cultural Festivals",
+          "words": [
+            "DIWALI",
+            "CARNIVAL",
+            "OCTOBERFEST",
+            "MARDI GRAS"
+          ],
+          "difficulty": "blue"
+        }
+      ]
     }
   ]
 }
