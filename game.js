@@ -280,6 +280,8 @@ function initGame() {
   );
   shuffleArray(remainingWords);
   updateDisplay();
+  updateDeselectButtonState();
+
 }
 
 
@@ -358,7 +360,9 @@ function updateDisplay() {
     fitWordToTile(tile);
   });
 
-  document.getElementById('submit-btn').disabled = selectedWords.length !== 4;
+document.getElementById('submit-btn').disabled = selectedWords.length !== 4;
+updateDeselectButtonState();
+
 
   if (remainingWords.length === 0) {
     return;
@@ -386,8 +390,9 @@ function toggleWord(word, tileElement) {
     selectedWords.push(word);
     tileElement.classList.add('selected');
   }
+document.getElementById('submit-btn').disabled = selectedWords.length !== 4;
+updateDeselectButtonState();
 
-  document.getElementById('submit-btn').disabled = selectedWords.length !== 4;
 }
 
 
@@ -664,13 +669,12 @@ function positionMessageOverBoard() {
   overlay.style.top = offsetFromContainerTop + 'px';
 }
 
-
 function deselectAll() {
   selectedWords = [];
   updateDisplay();
   saveProgressState();
+  updateDeselectButtonState();
 }
-
 
 function shuffleBoard() {
   if (mistakes >= 4 || remainingWords.length === 0) return;
@@ -683,8 +687,10 @@ function shuffleBoard() {
     shuffleArray(remainingWords);
     selectedWords = [];
     updateDisplay();
+    updateDeselectButtonState();
   }, 250);
 }
+
 
 
 function handleResize() {
@@ -738,10 +744,21 @@ function renderFullSolutionGrid(solutionCategories) {
 // ------------------ STARTUP ------------------
 
 
+const deselectButton = document.getElementById('deselect-btn');
+
+
+function updateDeselectButtonState() {
+  const selectedCount = selectedWords.length;
+  deselectButton.disabled = selectedCount === 0;
+  console.log('updateDeselectButtonState:', {
+    selectedCount,
+    disabled: deselectButton.disabled
+  });
+}
+
 document.getElementById('submit-btn').addEventListener('click', submitGuess);
 document.getElementById('deselect-btn').addEventListener('click', deselectAll);
 document.getElementById('shuffle-btn').addEventListener('click', shuffleBoard);
-
 
 async function startGame() {
   console.log('startGame called');

@@ -604,6 +604,12 @@ button .icon {
   border-color: var(--color-primary-hover);
 }
 
+#deselect-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
 .stats {
  font-family: var(--font-primary);
   font-size: var(--font-size-large);
