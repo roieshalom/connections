@@ -679,11 +679,11 @@ function deselectAll() {
 function shuffleBoard() {
   if (mistakes >= 4 || remainingWords.length === 0) return;
 
-  // Shuffle the data
+  // 1) Shuffle the data
   shuffleArray(remainingWords);
   selectedWords = [];
 
-  // Get existing tiles (there are always 16)
+  // 2) Reuse existing tiles instead of rebuilding the grid
   const tiles = document.querySelectorAll('.word-tile');
 
   remainingWords.forEach((item, index) => {
@@ -693,22 +693,22 @@ function shuffleBoard() {
     const textEl = tile.querySelector('.word-text');
     if (!textEl) return;
 
-    // Update text
+    // Update the word in place
     textEl.textContent = item.word;
 
-    // Reset wrapping class
+    // Multi-word wrapping class
     textEl.classList.toggle('has-space', item.word.includes(' '));
 
-    // Trigger animation
-    textEl.classList.remove('shuffle-change');
-    // force reflow so re-adding the class retriggers the animation
-    void textEl.offsetWidth;
-    textEl.classList.add('shuffle-change');
-
-    // Clear selection styling
+    // Clear selection styles
     tile.classList.remove('selected', 'group-selected');
+
+    // 3) Trigger the shuffle animation on the text
+    textEl.classList.remove('shuffle-change');
+    void textEl.offsetWidth;            // force reflow so animation restarts
+    textEl.classList.add('shuffle-change');
   });
 
+  // 4) Update button states + save progress
   updateDeselectButtonState();
   saveProgressState();
 }
