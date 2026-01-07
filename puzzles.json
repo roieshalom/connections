@@ -657,6 +657,53 @@
           "difficulty": "purple"
         }
       ]
+    },
+    {
+      "date": "14.01.2026",
+      "id": "36",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Basketball positions",
+          "words": [
+            "GUARD",
+            "FORWARD",
+            "CENTER",
+            "SIXTH MAN"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Expressions related to Time",
+          "words": [
+            "SECOND",
+            "QUARTER",
+            "FORTNIGHT",
+            "DECADE"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Computer games",
+          "words": [
+            "FOURTH PROTOCOL",
+            "MINECRAFT",
+            "MINUTE",
+            "OVERWATCH"
+          ],
+          "difficulty": "blue"
+        },
+        {
+          "name": "A part of a city",
+          "words": [
+            "DISTRICT",
+            "BARRIO",
+            "SUBURB",
+            "THIRD WARD"
+          ],
+          "difficulty": "purple"
+        }
+      ]
     }
   ]
 }
