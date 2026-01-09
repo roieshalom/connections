@@ -751,6 +751,53 @@
           "difficulty": "blue"
         }
       ]
+    },
+    {
+      "date": "16.01.2026",
+      "id": "38",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Found in a Theater",
+          "words": [
+            "STAGE",
+            "CURTAIN",
+            "BOX",
+            "PLAY"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Currency related",
+          "words": [
+            "NOTE",
+            "BANK",
+            "RECORD",
+            "BILL"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Physical quantity",
+          "words": [
+            "PITCH",
+            "VOLUME",
+            "FORCE",
+            "ENERGY"
+          ],
+          "difficulty": "blue"
+        },
+        {
+          "name": "Music notation symbols",
+          "words": [
+            "PAUSE",
+            "REPEAT",
+            "STAFF",
+            "BAR"
+          ],
+          "difficulty": "purple"
+        }
+      ]
     }
   ]
 }
