@@ -798,6 +798,53 @@
           "difficulty": "purple"
         }
       ]
+    },
+    {
+      "date": "17.01.2026",
+      "id": "39",
+      "language": "en",
+      "categories": [
+        {
+          "name": "Sandwiches",
+          "words": [
+            "BLT",
+            "CLUB",
+            "SUB",
+            "BREAKFAST"
+          ],
+          "difficulty": "yellow"
+        },
+        {
+          "name": "Public transport, \"way\" removed",
+          "words": [
+            "TRAM",
+            "RAIL",
+            "SKY",
+            "BUS"
+          ],
+          "difficulty": "green"
+        },
+        {
+          "name": "Electrical connectors",
+          "words": [
+            "D-SUB",
+            "BARREL",
+            "USB",
+            "BANANA"
+          ],
+          "difficulty": "blue"
+        },
+        {
+          "name": "Special meals",
+          "words": [
+            "TEA",
+            "TAPAS",
+            "SIU YEH",
+            "AIRLINE"
+          ],
+          "difficulty": "purple"
+        }
+      ]
     }
   ]
 }
