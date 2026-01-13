@@ -899,7 +899,7 @@
       "language": "en",
       "categories": [
         {
-          "name": "names and types of Red",
+          "name": "Hues of Red",
           "words": [
             "COQUELICOT",
             "CINNABAR",
@@ -909,7 +909,7 @@
           "difficulty": "yellow"
         },
         {
-          "name": "names and types of blue",
+          "name": "Hues of blue",
           "words": [
             "CERULEAN",
             "SMALT",
@@ -919,7 +919,7 @@
           "difficulty": "green"
         },
         {
-          "name": "names and types of green",
+          "name": "Hues of yellow",
           "words": [
             "OLIVE",
             "EMERALD",
@@ -929,7 +929,7 @@
           "difficulty": "blue"
         },
         {
-          "name": "names and types of yellow",
+          "name": "Hues of yellow",
           "words": [
             "SAFFRON",
             "OCHRE",
