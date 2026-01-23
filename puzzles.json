@@ -1083,53 +1083,6 @@
     },
     {
       "date": "23.01.2026",
-      "id": "45",
-      "language": "en",
-      "categories": [
-        {
-          "name": "Breakfast Staples",
-          "words": [
-            "BACON",
-            "OATMEAL",
-            "TOAST",
-            "EGG"
-          ],
-          "difficulty": "yellow"
-        },
-        {
-          "name": "Types of Knives",
-          "words": [
-            "CHEF",
-            "PARING",
-            "BUTTER",
-            "CLEAVER"
-          ],
-          "difficulty": "green"
-        },
-        {
-          "name": "Programming Languages",
-          "words": [
-            "PYTHON",
-            "JAVA",
-            "SWIFT",
-            "RUBY"
-          ],
-          "difficulty": "blue"
-        },
-        {
-          "name": "Morning Routine",
-          "words": [
-            "CROISSANT",
-            "KETTLE",
-            "TOOTHPASTE",
-            "TOWEL"
-          ],
-          "difficulty": "purple"
-        }
-      ]
-    },
-    {
-      "date": "24.01.2026",
       "id": "46",
       "language": "en",
       "categories": [
@@ -1176,7 +1129,7 @@
       ]
     },
     {
-      "date": "25.01.2026",
+      "date": "24.01.2026",
       "id": "47",
       "language": "en",
       "categories": [
@@ -1223,7 +1176,7 @@
       ]
     },
     {
-      "date": "26.01.2026",
+      "date": "25.01.2026",
       "id": "48",
       "language": "en",
       "categories": [
